@@ -1,0 +1,17 @@
+image: alpine/edge
+packages:
+  - hut
+  - zola
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  site: zola-no-style-please.demo.gumx.cc
+sources:
+  - https://git.sr.ht/~gumxcc/zola-no-style-please
+tasks:
+  - build: |
+      cd zola-no-style-please
+      zola build
+  - package: |
+      tar -C zola-no-style-please/public -cvz . > site.tar.gz
+  - upload: |
+      hut pages publish -d $site site.tar.gz

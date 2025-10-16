@@ -1,15 +1,15 @@
 name = "no style, please!"
 description = "A (nearly) no-CSS, fast, minimalist Zola theme"
 license = "MIT"
-homepage = "https://gitlab.com/atgumx/no-style-please"
+homepage = "https://git.sr.ht/~gumxcc/zola-no-style-please"
 min_version = "0.4.0"
-demo = "https://atgumx.gitlab.io/no-style-please"
+demo = "zola-no-style-please.demo.gumx.cc"
 
 [extra]
 
 # The theme author info: you!
 [author]
-name = "Ahmed Alaa"
+name = "Ahmed"
 homepage = "https://gumx.cc"
 
 [original]
