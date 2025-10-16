@@ -1,4 +1,4 @@
-base_url = "https://atgumx.gitlab.io/no-style-please/"
+base_url = "https://zola-no-style-please.demo.gumx.cc"
 title = "no style, please!"
 description = "A (nearly) no-CSS, fast, minimalist Zola theme."
 
@@ -18,10 +18,10 @@ highlight_code = true
 author = "Ahmed Alaa"
 logo = "images/logo.png"
 header_nav = [
-    { name = "~home", url = "/no-style-please/" },
-    { name = "#tags", url = "/no-style-please/tags" },
-    { name = "+categories", url = "/no-style-please/categories" },
-    { name = "@contexts", url = "/no-style-please/contexts" },
+    { name = "~home", url = "/" },
+    { name = "#tags", url = "/tags" },
+    { name = "+categories", url = "/categories" },
+    { name = "@contexts", url = "/contexts" },
 ]
 footer_nav = [
     { name = "< previous", url = "#" },

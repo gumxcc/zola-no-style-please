@@ -3,7 +3,7 @@ description = "A (nearly) no-CSS, fast, minimalist Zola theme"
 license = "MIT"
 homepage = "https://git.sr.ht/~gumxcc/zola-no-style-please"
 min_version = "0.4.0"
-demo = "zola-no-style-please.demo.gumx.cc"
+demo = "https://zola-no-style-please.demo.gumx.cc"
 
 [extra]
 
